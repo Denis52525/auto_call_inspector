@@ -1,0 +1,8 @@
+FROM ollama/ollama:latest
+
+# Копируем скрипт для запуска
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+# Указываем entrypoint
+ENTRYPOINT ["/entrypoint.sh"]

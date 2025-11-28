@@ -1,0 +1,14 @@
+pydrive2==1.21.3
+google==3.0.0
+google_auth_oauthlib==1.2.3
+torch==2.8.0
+torchcodec==0.7.0
+torchaudio==2.8.0
+pyannote.audio==3.4.0
+dotenv==0.9.9
+resemblyzer==0.1.4
+whisperx==3.7.4
+fastapi==0.121.3
+uvicorn==0.38.0
+loguru==0.7.3
+transformers==4.57.1
