@@ -36,6 +36,8 @@ This project is designed to analyze client calls, evaluate manager performance, 
 
 ### Using Docker Compose
 
+Docker is required for this project because the Ollama server and AI model `qwen2.5:3b` run inside the container.
+
 ```bash
 docker-compose build
 docker-compose up -d
@@ -71,6 +73,7 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+Important: Make sure the Docker container with Ollama is running before starting the FastAPI server, otherwise the AI model will not be available.
 
 # API Endpoints
 
