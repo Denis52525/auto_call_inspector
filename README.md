@@ -5,19 +5,18 @@ An automated tool for downloading audio files from Google Drive, transcribing ca
 This project is designed to analyze client calls, evaluate manager performance, and log transcription results in a spreadsheet.
 
 ## Key Features
-- Download audio files from a specified Google Drive folder
-- Copy audio files to the project workspace
-- Transcribe audio files and save results alongside the audio files
-- Extract data from Google Sheets and log transcription results with date, phone number, and call type
-- Automatically evaluate manager performance during calls, marking problematic or incorrect responses (highlighted in red comments)
-- Calculate points for instruction compliance (1 or 0) in a separate column
+- Download audio files from a specified Google Drive folder.
+- Copy audio files to the project workspace.
+- Transcribe audio files and save the results alongside the audio files.
+- Extract data from transcription results, including date, phone number, and call type, and log it into a Google Sheet.
+- Automatically evaluate manager performance during calls.
 
 ## Requirements
 
 - Python 3.10+
 - FastAPI
 - Google Drive API & Google Sheets API
-- Docker (optional for deployment)
+- Docker
 
 ## Project Setup
 
